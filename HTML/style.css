@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    background-color: rgb(176, 222, 228);
+}
+
+
+.container {
+    background-color: rgb(177, 236, 236);
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Education {
+    text-align: left;
+    margin-top: 0;
+    
+}
+.Hobbies {
+    text-align: left;
+    margin-left: 0;
+    
+}
+.Info Section {
+    display: flex;
+    margin-left: 150px;
+}
