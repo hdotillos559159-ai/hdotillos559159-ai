@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <form >
+            <!--Text Input-->
+            <label for="fullname">Full Name</label>
+            <input type="text" placeholder="Enter Full Name">
+
+            <!--Email Input-->
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Email">
+
+            <!--Password Input-->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password">
+
+            <!--Number Input-->
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <!--Date Input-->
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob">
+
+            <!--Radio Buttons-->
+            <label>Gender</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+                <br>
+            
+            <!--Checkbox-->
+            <label>Hobbies</label>
+            <br>
+            <input type="checkbox" id="coding" name="hobbies" value="coding">
+            <label for="coding" style="display:inline">Coding</label>
+
+            <input type="checkbox" id="reading" name="hobbies" value="Reading">
+            <label for="reading" style="display:inline">Reading</label>
+
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports" style="display: inline">Sports</label>
+
+            <!--Dropdown select-->
+            <label for="course">Select Course</label>
+            <select id="course" name="course">
+                <option value="IT">Information Technology</option>
+                <option value="CS">Computer Science</option>
+                <option value="Eng">Engineering</option>
+            </select>
+
+            <!--Textarea-->
+            <label for="bio">Short Bio</label>
+            <textarea id="bio" name="bio" rows="4" placeholder="Tell Us Something About Yourself"></textarea>
+
+            <!--Submit Button-->
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </div>
+
+    <div class="table css">
+        <table>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                    <th>Header 4</th>
+                    <th>Header 5</th>
+                    <th>Header 6</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    
+
+</body>
+</html>
